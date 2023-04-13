@@ -13,6 +13,11 @@ def not_found_error(error):
 def internal_error(error):
     return render_template("500.html"), 500
 
+def test_404_error_handler(client):
+    response = client.get('/non-existent-url')
+    assert response.status_code == 404
+    assert b'Page not found' in response.data
+
 class Loan:
     def __init__(self, loanAmount, numberYears, annualRate):
         self.loanAmount = loanAmount
