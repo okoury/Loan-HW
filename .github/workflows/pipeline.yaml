@@ -7,7 +7,7 @@ name: Build and deploy Python app to Azure Web App - hw-loan
 on:
   push:
     branches:
-      - main
+      - master
   workflow_dispatch:
 
 jobs:
@@ -60,4 +60,4 @@ jobs:
         with:
           app-name: 'hw-loan'
           slot-name: 'production'
-          publish-profile: ${{ secrets.AzureAppService_PublishProfile_edd7614f350f416894771000e9d0dfc0 }}
+          publish-profile: ${{ secrets.AzureAppService_PublishProfile_1db8d6f2f32a48af9112c7e44274bf92 }}
