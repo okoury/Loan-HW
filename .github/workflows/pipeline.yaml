@@ -1,3 +1,8 @@
+- name: Login to Azure
+  uses: azure/login@v1
+  with:
+    creds: ${{ secrets.AzureAppService_PublishProfile_01b6654f37db40b882ba9f14c86e7b3d }}
+
 name: test-package-deploy-pipeline #MWC
 on:
   push:
