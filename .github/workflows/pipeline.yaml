@@ -7,9 +7,9 @@ on:
 
 jobs:
   test:
-    name: "test"
+    name: "Test"
     runs-on: ubuntu-latest
-
+    
     steps:
       # Checkout source code
       - name: Checkout
