@@ -1,8 +1,11 @@
-{% extends 'base.html' %} {% block body %}
+{% extends 'base.html' %} <!-- Extend the base HTML template -->
+{% block body %} <!-- Define a block for the body content to be inserted in the base template -->
 
+<!-- Define the HTML template for a 500 error page -->
 <hr />
 <main>
   <div class="row">
+    <!-- Display an image on the left side of the page -->
     <div class="col-4">
       <img
         class="img-fluid"
@@ -10,6 +13,7 @@
         alt="505 error page"
       />
     </div>
+    <!-- Display a message on the right side of the page -->
     <div class="col-8">
       <h2 class="mt-5">Something has gone very wrong!</h2>
       <p>
@@ -19,4 +23,4 @@
     </div>
   </div>
 </main>
-{% endblock %}
+{% endblock %} <!-- End the block for the body content -->
