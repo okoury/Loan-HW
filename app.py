@@ -18,6 +18,11 @@ def test_404_error_handler(client):
     assert response.status_code == 404
     assert b'Page not found' in response.data
 
+def test_500_error_handler(client):
+    response = client.get('/error-url')
+    assert response.status_code == 500
+    assert b'Server error' in response.data
+    
 class Loan:
     def __init__(self, loanAmount, numberYears, annualRate):
         self.loanAmount = loanAmount
