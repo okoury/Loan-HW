@@ -1,8 +1,10 @@
-{% extends 'base.html' %} {% block body %}
+{% extends 'base.html' %}<!-- Extend the base HTML template --> {% block body %}<!-- Define a block for the body content to be inserted in the base template --> 
 
+<!-- Define the HTML template for a 404 error page -->
 <hr />
 <main>
   <div class="row">
+    <!-- Display an image on the left side of the page -->
     <div class="col-4">
       <img
         class="img-fluid"
@@ -11,9 +13,10 @@
       />
     </div>
 
+    <!-- Display a message on the right side of the page -->
     <div class="col-8">
       <h2 class="mt-5">Page not found</h2>
     </div>
   </div>
 </main>
-{% endblock %}
+{% endblock %} <!-- End the block for the body content --> 
