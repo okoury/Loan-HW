@@ -1,4 +1,4 @@
-# 📚 3300 - Loan Calculator
+# 📚 Loan Calculator
 
 A Python Flask web app for loan calculations. This is a basic Flask application using Jinja templates. The user enters details of their loan, and the app calculates the monthly payment and generates an amortization table.
 
