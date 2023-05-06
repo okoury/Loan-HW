@@ -39,7 +39,11 @@ This application is also used to teach CI/CD, including automated testing and Gi
 
 ## 📸 Screenshots
 
-Include screenshots of the application to showcase its features and design.
+<img width="1675" alt="Screen Shot 2023-05-06 at 4 24 21 PM" src="https://user-images.githubusercontent.com/90418979/236647133-95a70b7f-a3c1-4344-b6b5-62abad2a61f0.png">
+
+<img width="1679" alt="Screen Shot 2023-05-06 at 4 24 00 PM" src="https://user-images.githubusercontent.com/90418979/236647135-9fd18e61-e057-4ece-a849-33565ef2e8cd.png">
+
+
 
 ## 💼 Skills
 
